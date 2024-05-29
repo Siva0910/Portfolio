@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <nav class="container">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#project">Projects</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="bg-container text-center py-5">
+        <h1>Sivagnanasankar CS</h1>
+        <div class="home d-flex flex-column flex-md-row align-items-center justify-content-center gap-4">
+            <div class="about-me text-start">
+                <h2>About Me</h2>
+                <p>As a motivated and enthusiastic individual, I am eagerly waiting to kickstart my career in software development. I am a dedicated, quick learner who constantly seeks opportunities to enhance my knowledge.</p>
+            </div>
+            <div class="image-container">
+                <img src="img/my-image.jpg" alt="My Image" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+    <section id="project" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 decorated-heading">Projects</h2>
+            <div class="row gy-4">
+                <!-- First Row -->
+                <div class="col-md-6">
+                    <div class="card h-100 project-card">
+                        <a href="https://github.com/Siva0910/CloudStorageDeduplication" target="_blank">
+                            <img src="img/cloud-de.png" class="card-img-top" alt="Project 1">
+                        </a>
+                        <div class="card-body">
+                            <h3 class="card-title">Cloud Storage Deduplication</h3>
+                            <p class="card-text">
+                                -> Streamlining storage efficiency, our cloud storage system employs advanced deduplication techniques 
+                                to identify and eliminate duplicate files, effectively minimizing data redundancy. 
+                            </p>
+                            <a href="https://github.com/Siva0910/CloudStorageDeduplication" target="_blank"  class="btn btn-primary">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 project-card">
+                        <a href="https://github.com/Siva0910/Physilink" target="_blank">
+                            <img src="img/physilink.png" class="card-img-top" alt="Project 2">
+                        </a>
+                        <div class="card-body">
+                            <h3 class="card-title">Physilink</h3>
+                            <p class="card-text">
+                                -> In the hectic life of 21th century, taking complete care of people with disabilities
+                                 and elderly ones have become a tedious task to young generation. 
+                            </p>
+                            <p class="card-text">
+                                -> We have come up with inbuilt customized dashboards for Differently-abled one, the caretakers and 
+                                the clinical assistants as well.
+                            </p>
+                            
+                            <a href="https://github.com/Siva0910/Physilink" target="_blank"  class="btn btn-primary">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-4 mt-4">
+                <!-- Second Row -->
+                <div class="col-md-6">
+                    <div class="card h-100 project-card">
+                        <a href="https://github.com/Siva0910/CloudStorageDeduplication" target="_blank">
+                            <img src="img/pckt-sniff.png" class="card-img-top" alt="Project 3">
+                        </a>
+                        <div class="card-body">
+                            <h3 class="card-title">Network Packet Sniffer</h3>
+                            <p class="card-text">
+                                -> Introducing a user-friendly desktop application crafted with Tkinter library, designed to 
+                                capture and analyze all incoming data packets on a specified network interface. 
+                            </p>
+                            <a href="https://github.com/Siva0910/network_packet_sniffer" target="_blank"  class="btn btn-primary">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 project-card">
+                        <img src="img/leetcoding-tally.png" class="card-img-top" alt="Project 4">
+                        <div class="card-body">
+                            <h3 class="card-title">Leetcode Problem Solved Counter</h3>
+                            <p class="card-text">
+                                -> A sleek GUI application tailored for LeetCode enthusiasts, allowing effortless tracking of solved problem 
+                                 counts using either a user profile or profile link.
+                            </p>
+                            <a href="https://github.com/yourusername/project4" target="_blank"  class="btn btn-primary">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-center">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form id="contactForm" method="post" action="path/to/your/form/handler">
+                        
+                    </form>
+                </div>
+            </div>
+            <div class="contact-info mt-5 text-center">
+                <p>Email: <a href="mailto:your.email@example.com">sivagnanasankar2003@gmail.com</a></p>
+                <p>Phone: <a href="tel:+91 88384 79499">+91 88384 79499</a></p>
+            </div>
+            <div class="social-icons text-center mt-4">
+                <a href="https://linkedin.com/in/yourusername" class="text-dark me-3"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/yourusername" class="text-dark"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <p>Email: <a href="mailto:your-email@example.com" class="text-white">sivagnanasankar2003@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+91 88384 79499" class="text-white">+91 88384 79499</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Me</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://github.com/Siva0910" target="_blank" class="text-white"><i class="fa-brands fa-github"></i> GitHub</a></li>
+                        <li><a href="https://linkedin.com/in/sivagnanasankar" target="_blank" class="text-white"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="https://leetcode.com/u/siva0910" target="_blank" class="text-white"><i class=""></i>Leetcode</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h5>Location</h5>
+                    <p>Coimbatore, India</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <p>&copy; 2024 Sivagnanasankar CS. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXlY3S4Ybltw5r4PfEJGFpfm6a15+GfCtINjw1ATIBUf5p07p+biBjc4tFTg" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGgumwB8PEFvdG5qgWbvlBdcof6PR5HflZ5PRpKw5j9D/65p8uH+Kw1T2YN" crossorigin="anonymous"></script>
+
+</body>
+</html>
